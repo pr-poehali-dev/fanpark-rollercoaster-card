@@ -76,7 +76,6 @@ const Index = () => {
             <Icon name="ChevronLeft" size={18} style={{ color: "hsl(36,100%,58%)" }} />
           </button>
           <div style={{ flex: 1 }}>
-            <div style={{ fontSize: 10, fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "hsl(215,10%,48%)", marginBottom: 1 }}>ФанПарк</div>
             <div style={{ fontSize: 14, fontWeight: 700, color: "hsl(210,20%,90%)" }}>Аттракцион</div>
           </div>
           <button style={{ width: 36, height: 36, borderRadius: 12, background: "hsl(220,12%,15%)", border: "none", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}>
