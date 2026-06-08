@@ -231,22 +231,7 @@ const Index = () => {
               </button>
             ))}
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6 }}>
-            {(["included", "not_included"] as TicketAccess[]).map((a) => (
-              <button
-                key={a}
-                onClick={() => setAccess(a)}
-                style={{
-                  padding: "7px 4px", borderRadius: 12, border: "none", cursor: "pointer",
-                  fontSize: 10, fontWeight: 700, transition: "all 0.2s",
-                  background: access === a ? "hsl(36,100%,58%)" : "hsl(220,12%,17%)",
-                  color: access === a ? "hsl(220,16%,8%)" : "hsl(215,10%,50%)",
-                }}
-              >
-                {a === "included" ? "Premium-билет ✓" : "Без билета"}
-              </button>
-            ))}
-          </div>
+
         </div>
 
         {/* Home indicator */}
