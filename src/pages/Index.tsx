@@ -214,9 +214,7 @@ const Index = () => {
 
         {/* Demo switcher */}
         <div style={{ margin: "8px 16px 16px", background: "hsl(220,12%,12%)", borderRadius: 18, padding: "12px 14px", border: "1px solid hsl(220,12%,16%)" }}>
-          <div style={{ fontSize: 9, fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "hsl(215,10%,36%)", textAlign: "center", marginBottom: 10 }}>
-            Демо — переключить состояние
-          </div>
+
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 6, marginBottom: 6 }}>
             {(["working", "maintenance", "closed"] as Status[]).map((s) => (
               <button
